@@ -25,15 +25,23 @@ body {
     font-family: Roboto;
     font-style: normal;
 }
+
 .link {
     text-decoration: none;
 }
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
@@ -95,6 +103,8 @@ ul {
     background-color: #2F303A;
 }
 .order-service .title {
+    margin-bottom: 30px;
+    margin-top: 0;
     color: var(--primary-bg-color);
     font-weight: 900;
     font-size: 44px;
@@ -112,12 +122,14 @@ ul {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    min-width: 200px;
+    padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 188% */
     
-    display: flex;
+    display: inline-block;
     align-items: center;
     text-align: center;
 
@@ -133,6 +145,7 @@ ul {
 
 /* Features */
 .feature-list .title {
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -151,6 +164,7 @@ ul {
 /* Section */
 
 .section-title {
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -167,6 +181,7 @@ ul {
     background-color: #F5F4FA;
 }
 .section-team .section-title {
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -176,6 +191,7 @@ ul {
 }
 
 .team-list .title {
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -229,6 +245,8 @@ ul {
     
 }
 .footer-list .link-address {
+    font-family: 'Roboto';
+    font-style: normal;
     color: var(--primary-bg-color);
     text-decoration: none;
     font-size: 14px;
@@ -242,7 +260,8 @@ ul {
     color: var(--accent-color);
 }
 .footer-list .link {
-    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
@@ -294,12 +313,12 @@ background: #2196F3;
 
 }
 
-.container {
+.container-project {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
-.container .title {
+.container-project .title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -309,7 +328,7 @@ background: #2196F3;
     
     color: #212121;
 }
-.container .text {
+.container-project .text {
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 188% */
