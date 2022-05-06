@@ -44,7 +44,8 @@ p {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 /* Logotipe */
@@ -167,6 +168,12 @@ margin-left: 50px;
 }
 
 /* Features */
+.feature-list {
+    display: flex;
+}
+.feature-list li +li {
+    margin-left: 30px;
+}
 .feature-list .title {
     margin-bottom: 10px;
     color: var(--title-text-color);
@@ -197,7 +204,12 @@ margin-left: 50px;
 }
 
 /* Our work */
-
+.work-list {
+    display: flex;
+}
+.work-list li + li {
+    margin-left: 30px;
+}
 
 /* Team */
 .section-team {
