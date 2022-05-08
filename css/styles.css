@@ -55,7 +55,7 @@ p {
 }
 /* Page header */
 .page-header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 /* Logotipe */
 .page-header .logo-left {
@@ -112,6 +112,8 @@ margin-left: 50px;
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-left: 331px;
+    
 }
 .contacts-list li + li {
     margin-left: 30px;
@@ -179,6 +181,10 @@ margin-left: 50px;
 }
 
 /* Features */
+.feature {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 .feature-list {
     display: flex;
 }
@@ -215,8 +221,13 @@ margin-left: 50px;
 }
 
 /* Our work */
+.work {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 .work-list {
     display: flex;
+    
 }
 .work-list li + li {
     margin-left: 30px;
@@ -245,7 +256,6 @@ margin-left: 50px;
 }
 
 .team-list .title {
-    margin-top: 30px;
     margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
@@ -265,9 +275,11 @@ margin-left: 50px;
     
     text-align: center;
 }
-.social-link {
-    margin: 0px 30px 32px;
-    text-align: center;
+.team-content {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 .section-team .team-card {
     background: #FFFFFF;
@@ -276,6 +288,8 @@ margin-left: 50px;
 
 /* Address */
 .page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #2F303A;
 }
 .logo-footer {
@@ -307,10 +321,10 @@ margin-left: 50px;
     letter-spacing: 0.03em;
     
 }
-.nav-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.footer-list li + li {
+    margin-top: 9px;
 }
+
 .footer-list .link-address {
     font-family: 'Roboto';
     font-style: normal;
@@ -351,7 +365,7 @@ margin-left: 50px;
 }
 .filter-list {
     display: flex;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     align-items: center;
     justify-content: center;
 
@@ -420,6 +434,8 @@ background: #2196F3;
     box-sizing: border-box;
     background: #FFFFFF;
     border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
     
 }
 
